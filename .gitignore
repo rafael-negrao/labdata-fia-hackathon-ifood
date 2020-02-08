@@ -2,6 +2,39 @@
 # Created by https://www.gitignore.io/api/vim,java,scala,spark,python,pycharm,eclipse,intellij,intellij+all,jupyternotebooks,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=vim,java,scala,spark,python,pycharm,eclipse,intellij,intellij+all,jupyternotebooks,visualstudiocode
 
+
+# Created by https://www.gitignore.io/api/libreoffice,microsoftoffice
+# Edit at https://www.gitignore.io/?templates=libreoffice,microsoftoffice
+
+### LibreOffice ###
+# LibreOffice locks
+.~lock.*#
+
+### MicrosoftOffice ###
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+~*.xlsx*
+.~*.xlsx
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*
+
+# End of https://www.gitignore.io/api/libreoffice,microsoftoffice
+
 ### Eclipse ###
 .metadata
 bin/
